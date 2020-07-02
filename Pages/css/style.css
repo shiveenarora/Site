@@ -49,6 +49,49 @@ body{
     margin-top: 40px;
     padding: 0px 10px 10px 10px;
 }
+.container-fluid{    
+    padding: 0px;
+    background-color: grey;
+}
+.navbar {
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 1rem;
+    padding-top: 20px;
+}
+h1{
+    margin-bottom: -3px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: black;
+    margin-right: 5px;
+}
+.collapse a{
+    font-weight: 700;
+    font-size: x-large;
+}
+.navbar-collapse a{
+    font-weight: 700;
+    font-size: x-large;
+}
+.navbar-nav {
+    background-color: darkgray !important;
+}
+.navbar ,.navbar-expand-lg ,.navbar-light {
+    background-color: gray;
+}
 @media(max-width:991px) and (min-width:768px){
     .col-md-4{
     width: 50%;
@@ -131,7 +174,7 @@ body{
 }
 .topic{
     background-color: black;
-    margin-top: -30px;
+    margin-top: -10px;
     margin-right: -10px;
     width: 150px;
     text-align: center;
