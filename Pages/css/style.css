@@ -37,7 +37,7 @@ body{
 }
 .topic{
     background-color: black;
-    margin-top: -20px;
+    margin-top: 0px;
     width: 150px;
     text-align: center;
 }
@@ -55,6 +55,7 @@ body{
 }
 .navbar {
     padding: 0;
+    background-color: gray;
 }
 .navbar-brand {
     margin-left: 1rem;
@@ -70,13 +71,8 @@ h1{
     margin-bottom: 0;
     line-height: .75;
 }
-.navbar-brand a{
-    text-decoration: none;
-}
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
-    border-color: black;
-    margin-right: 5px;
+.collapse .navbar-nav, .collapse .mr-auto, .navbar-collapse .navbar-nav, .navbar-collapse .mr-auto{
+    margin-left: 800px;
 }
 .collapse a{
     font-weight: 700;
@@ -85,12 +81,6 @@ h1{
 .navbar-collapse a{
     font-weight: 700;
     font-size: x-large;
-}
-.navbar-nav {
-    background-color: darkgray !important;
-}
-.navbar ,.navbar-expand-lg ,.navbar-light {
-    background-color: gray;
 }
 @media(max-width:991px) and (min-width:768px){
     .col-md-4{
@@ -186,5 +176,27 @@ h1{
 .about{
     margin-top: 40px;
     padding: 0px 10px 10px 10px;
+}
+    .navbar-brand a{
+    text-decoration: none;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: black;
+    margin-right: 5px;
+}
+.collapse a{
+    font-weight: 700;
+    font-size: x-large;
+}
+.navbar-collapse a{
+    font-weight: 700;
+    font-size: x-large;
+}
+.navbar-nav {
+    background-color: darkgray !important;
+}
+.navbar ,.navbar-expand-lg ,.navbar-light {
+    background-color: gray;
 }
 }
