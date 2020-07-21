@@ -50,27 +50,27 @@
         </div>
     </div>
     
-    <div class="container">
-  <div class="contact" style="text-align:center">
-    <h3>Contact Us</h3>
-    <p>Want to get in touch, leave us a message:</p>
-  </div>
-  <div class="row">
+   <div class="container">
+     <div class="contact" style="text-align:center">
+      <h3>Contact Us</h3>
+      <p>Want to get in touch, leave us a message:</p>
+     </div>
+     <div class="row">
         <div class="column">
-        <form action="test.php" method="post">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email..">
-        <label for="phone">Contact</label>
-        <input type="text" id="phone" name="phone" placeholder="Your email..">
-        <input type="submit" value="Submit">
-        </form>
-        </div>
- </div>
- </div>
+         <form action="test.php" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <label for="phone">Contact</label>
+          <input type="text" id="phone" name="phone" placeholder="Your email..">
+          <input type="submit" value="Submit">
+         </form>
+       </div>
+     </div>
+   </div>
 </body>
     <script src="js/script.js"></script>
 </html>
