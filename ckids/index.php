@@ -51,7 +51,7 @@
     </div>
     
    <div class="container">
-     <div class="contact" style="text-align:center">
+     <div class="contact" style="text-align:center";>
       <h3>Contact Us</h3>
       <p>Want to get in touch, leave us a message:</p>
      </div>
