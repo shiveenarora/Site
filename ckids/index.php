@@ -67,7 +67,7 @@
         <label for="phone">Contact</label>
         <input type="text" id="phone" name="phone" placeholder="Your email..">
         <input type="submit" value="Submit">
-    </form>
+      </form>
     </div>
   </div>
 </div>
